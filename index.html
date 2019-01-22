@@ -3,51 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script> -->
-    <script src="alertify.js-0.3.11/src/alertify.js"></script>
+    <title>Gvozdika Project</title>
+    <link rel="stylesheet" href="alertify/themes/alertify.core.css" />
+    <link rel="stylesheet" href="alertify/themes/alertify.default.css" />
+    <link rel="stylesheet" href="gvozdika.css">
+    <meta name="viewport" content="width=device-width">
+    <script src="alertify/alertify.min.js"></script>
+    <script src="gvozdika.js"></script>
 </head>
 
 <body>
-    <div style="font-size: 50px; display: inline-block; margin-right: 50px">Нажми "Гвоздика"</div> <a href="" onclick="alertify.confirm("Мой хуй с твоей губой")">бой?</a>
-    <!-- confirm('Мой хуй с твоей губой') -->
-    <input style="width: 500px; height: 200px; font-size: 100px; display: block" type="submit" value="Гвоздика" onclick="showNepizdika(this)"> </body>
-<script>
-    function showNepizdika(test) {
-        test.style.width = '700px';
-        test.style.height = '400px';
-        test.style.color = 'red';
-        test.value = 'НЕПИЗДИКА';
-    }
-
-    function fight() {
-        bootbox.confirm({
-            message: "This is a confirm with custom button text and color! Do you like it?"
-            , buttons: {
-                confirm: {
-                    label: 'Yes'
-                    , className: 'btn-success'
-                }
-                , cancel: {
-                    label: 'No'
-                    , className: 'btn-danger'
-                }
-            }
-            , callback: function (result) {
-                console.log('This was logged in the callback: ' + result);
-            }
-        });
-    }
-
-   
-        alertify.set({
-            labels: {
-                ok: "Да"
-                , cancel: "Нет"
-            }
-        });
-       
-   
-</script>
+    <div class="label_gvozdika">Нажми "Гвоздика"</div> <a href="#" onclick="fight()">бой?</a>
+    <input class="button_gvozdika" type="submit" value="Гвоздика" onclick="showNepizdika(this)"> </body>
 
 </html>
