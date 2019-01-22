@@ -1,0 +1,16 @@
+.alertify-log-custom {
+    background: blue;
+}
+
+.label_gvozdika {
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.button_gvozdika {
+    width: 500px;
+    height: 200px;
+    font-size: 100px;
+    display: block;
+}
