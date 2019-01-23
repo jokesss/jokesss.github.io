@@ -17,7 +17,7 @@
      });
      alertify.confirm("Мой хуй с твоей губой", function (e) {
          if (e) {
-             alertify.success("Я так и знал, ПИДРИЛА");
+             alertify.success("ПИДОРА ЕДА");
          }
          else {
              alertify.error("ПИДОРА ОТВЕТ!!!11");
